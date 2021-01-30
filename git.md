@@ -6,3 +6,9 @@
 # after first time
 * git add . => add all files to tracked files/ staging area
 * git commit -m "initial commit" =>checkpoint created
+* git push -u origin master 
+
+# When pushing in same repository 
+* git add . 
+* git commit -m "message" 
+* git push -u origin master
