@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    height: 30px;
+    /* background: lightblue; */
+    display: flex;
+    align-items: center;
+}
+.menu div{
+    margin-left: 5px;
+    width: 60px;
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgreen;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.menu-options{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid lightgreen;
+    border-bottom: 1px solid lightgreen;
+}
+
+.file-menu-options{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.file-menu-options div{
+    cursor: default;
+}
+
+
+.formula-tab{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.cells{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.content{
+    height: calc(100vh - 150px);
+    overflow: auto;
+    position: relative;
+}
+.sheets{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.row{
+    display: flex;
+}
+.cell{
+    min-height: 30px;
+    min-width: 80px;
+    max-width: 80px;
+    border: 1px solid;
+}
+.top-left-cell{
+    height: 30px;
+    width: 30px;
+    background: lightgray;
+    position: absolute;
+    border: 1px solid;
+}
+.top-row{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+.top-row-cell{
+    min-height: 30px;
+    min-width: 80px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-col{
+    position: absolute;
+    top: 30px;
+}
+
+.left-col-cell{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sheets-list{
+    display: flex;
+    height: 100%;
+}
+.sheet{
+    margin-left: 5px;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+    /* height: 100%; */
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.add-sheet{
+    margin-left: 10px;
+}
+.fas{
+    font-size: 22px;
+    color: lightgreen;
+}
+
+.active-sheet{
+    background: lightgreen;
+    color: white;
+}
+.active-menu{
+    background: lightgreen;
+    color: white;
+    height: 80%;
+    border-radius: 10px;
+}
+.hide{
+    display: none;
+}
